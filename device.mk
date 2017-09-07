@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
+    libshims_sensorlistener \
     libjustshoot_shim
 
 # Media

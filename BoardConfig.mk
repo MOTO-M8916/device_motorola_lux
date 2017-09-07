@@ -48,6 +48,7 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # SHIMS
 TARGET_LD_SHIM_LIBS := \
+    /system/lib/libmot_sensorlistener.so|libshims_sensorlistener.so \
     /system/lib/libjustshoot.so|libjustshoot_shim.so
 
 # Sensors
