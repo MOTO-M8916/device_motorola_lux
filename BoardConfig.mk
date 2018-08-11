@@ -46,5 +46,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# SHIMS
+TARGET_LD_SHIM_LIBS := \
+    /system/lib/libjustshoot.so|libjustshoot_shim.so
+
 # Sensors
 BOARD_USES_STML0XX_SENSOR_HUB := true
