@@ -23,6 +23,7 @@ DEVICE_PATH := device/motorola/lux
 TARGET_OTA_ASSERT_DEVICE := lux,lux_uds,xt1562,xt1563
 
 # Camera
+TARGET_USES_NON_TREBLE_CAMERA := true
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 	/system/vendor/bin/mm-qcamera-daemon=25
 
