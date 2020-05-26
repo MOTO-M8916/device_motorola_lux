@@ -22,7 +22,7 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lux
-PRODUCT_NAME := lineage_lux
+PRODUCT_NAME := mokee_lux
 PRODUCT_MODEL := Moto X Play
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
